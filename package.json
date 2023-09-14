@@ -1,0 +1,16 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:win": "pkg src/index.js --target=node18-win-x64 -C=GZip -o dist/todo "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
